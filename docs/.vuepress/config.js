@@ -9,9 +9,9 @@ module.exports = {
     }
   },
   themeConfig: {
-    repo: 'project/plan',
+    // repo: 'workplan/docs',
     docsDir: 'docs',
-    editLinks: true,
+    // editLinks: true,
     nav: [
       {
         text: 'vue',
@@ -50,7 +50,7 @@ module.exports = {
         {
           title: 'react',
           collapsable: false,
-          children: ['', 'component', 'typescript']
+          children: ['', 'component', 'typescript','hooks']
         }
       ],
       '/typescript/': [

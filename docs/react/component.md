@@ -5,6 +5,7 @@
 - React.Component es6的写法
 - React.SFC 无状态组件的写法
 - React.PureComponent 纯组件，是优化react的一个重要方法之一
+- React.FC 无状态组件 替代SFC
 
 这里我们用一个Loading的组件例子来演示用法
 
@@ -119,6 +120,15 @@ export default  class Todo extends  React.PureComponent{
     }
 }
 ```
+
+## React.FC(FunctionComponent)
+这是react 之后提出的 函数组件，废弃了之前的SFC,使用方法和SFC一样
+
+
+
+
+
+
 运行之后，我们发现无论怎么点击，li的数量都没有发送改变，那么是什么原因呢？
 让我们整理下思路哈哈~·
 

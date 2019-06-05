@@ -21,6 +21,6 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # https://shmmly.github.io/workplan
- git push -f git@github.com:shmmly/workplan.git deplay:gh-pages
+ git push -f git@github.com:shmmly/workplan.git master:gh-pages
 
 cd -
