@@ -27,5 +27,6 @@ typings/
 .cache
 .next
 .nuxt
+docs/.vuepress/dist
 
 .serverless
